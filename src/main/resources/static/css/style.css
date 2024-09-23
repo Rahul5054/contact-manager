@@ -1,0 +1,220 @@
+body{
+	background: #e2e2e2!important;
+}
+
+.bg-primary{
+	background:#4d5c58 !important;
+}
+
+.banner{
+	width:100%;
+	height:93vh;
+	background: linear-gradient(rgba(0,0,0,.8),rgba(0,0,0,.8)),url(../image/home-image.jpeg);
+	background-size:cover;
+	color:white;
+}
+
+.my-card{
+	padding: 20px;
+	background: #ffffff;
+}
+
+.card{position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .25rem;
+    margin: 7px;}
+
+
+/* custom login page css  */
+.user_card {
+			height: 400px;
+			width: 350px;
+			margin-top: auto;
+			margin-bottom: auto;
+			background: #f39c12;
+			position: relative;
+			display: flex;
+			justify-content: center;
+			flex-direction: column;
+			padding: 10px;
+			margin-top:240px;
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			-moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+			border-radius: 5px;
+
+		}
+		.brand_logo_container {
+			position: absolute;
+			height: 170px;
+			width: 170px;
+			top: -75px;
+			border-radius: 50%;
+			background: #60a3bc;
+			padding: 10px;
+			text-align: center;
+		}
+		.brand_logo {
+			height: 150px;
+			width: 150px;
+			border-radius: 50%;
+			border: 2px solid white;
+		}
+		.form_container {
+			margin-top: 100px;
+		}
+		.login_btn {
+			width: 100%;
+			background: #c0392b !important;
+			color: white !important;
+		}
+		.login_btn:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.login_container {
+			padding: 0 2rem;
+		}
+		.input-group-text {
+			background: #c0392b !important;
+			color: white !important;
+			border: 0 !important;
+			border-radius: 0.25rem 0 0 0.25rem !important;
+			height:45px;
+			margin-right:6px;
+			
+		}
+		
+		/* Add contacts css */
+		#icon{
+		background: #e2e2e2 !important;
+		color:black;
+		}
+		
+		.fa-plus:before {
+    content: "\f067";
+    color: black;
+}
+
+.fa-user-alt:before {
+    content: "\f406";
+    color: black;
+}
+
+.fa-briefcase:before {
+    content: "\f0b1";
+    color: black;
+}
+
+.fa-envelope:before {
+    content: "\f0e0";
+    color: black;
+}
+
+.fa-mobile:before {
+    content: "\f10b";
+    color: black;
+}
+/* end add-contacts css */
+		
+				.input_user,
+		.input_pass:focus {
+			box-shadow: none !important;
+			outline: 0px !important;
+		}
+		.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+			background-color: #c0392b !important;
+		}
+		
+		
+		/* sidebar style */
+		
+		
+	
+		
+		.sidebar{
+		width: 20%;
+		background: white;
+		height: 100%;
+		position: fixed;
+		padding-top: 45px;
+		z-index: 99999999999999999999999;
+		}
+		
+		.sidebar a{
+		
+		display: block;
+		width: 100%;
+		padding: 10px 25px;
+		text-decoration: none;
+		color: gray;
+		
+		
+		}
+		
+		.sidebar a:hover{
+		background: #e2e2e2;
+		}
+		
+		.sidebar .divider{
+		height: .5px;
+		width: 100%;
+		background: #e2e2e2;
+		margin-top: 10px;
+		}
+		
+		
+		.content{
+		margin-left: 20%;
+		
+		}
+		
+		@media only screen and (max-width: 600px) {
+    .sidebar{
+        display: none;
+        width: 100% !important;
+        background: white;
+        height: 100vh;
+        position: fixed;
+        padding-top: 20px;
+    }
+    
+    
+    
+    .content {
+        margin-left: 0% !important;
+    }
+    
+    .sidebar a{
+    position:relative;
+    left:160px;
+    }
+}
+
+.sidebar .crossBtn{
+	position: absolute;
+	top: 0;
+	right: 35px;
+	font-size: 36px;
+	cursor: pointer;
+	
+}
+
+.my_profile_picture{
+	height: 35px;
+	width: 35px;
+	object-fit:cover;
+	border-radius:50%;
+	border:1px solid black;
+}
+
+
+
+
+		

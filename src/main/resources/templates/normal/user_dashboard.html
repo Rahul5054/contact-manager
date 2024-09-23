@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org" th:replace="normal/base::layout(~{::section})">
+<head>
+    <meta charset="UTF-8" />
+    <title>User Dashboard</title>
+    <!-- Include Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"> <!-- For Bootstrap 4 -->
+    <!-- Or for Bootstrap 5 -->
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.1.0/css/bootstrap.min.css"> -->
+</head>
+<body>
+    <section>
+        <div class="container">    
+            <div class="card">
+                <div class="card-body my-5">    
+                    <div class="container text-center">
+                        <img style="height: 200px; width: 200px;" class="my_profile_picture" th:src="@{/image/c.png}" alt="profile photo" />
+                    </div>
+
+                    <h1 class="text-center mt-3 text-secondary fst-italic fw-light">
+                        Start Adding Your Contact On Cloud...
+                    </h1>
+
+                    <div class="container text-center">
+                        <a th:href="@{/user/add_contact}" class="btn btn-primary mt-4 text-uppercase w-100">Add New Contact</a> <!-- Using w-100 for full-width -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Include Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script> <!-- For Bootstrap 4 -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script> <!-- For Bootstrap 5 -->
+</body>
+</html>
